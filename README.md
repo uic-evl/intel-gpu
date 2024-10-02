@@ -2,7 +2,7 @@
 
 This guide will walk you through the process of setting up an AI/ML workstation using the Intel GPU Max 1550 (Ponte Vecchio). We'll cover the installation of Conda, necessary drivers, and key AI/ML frameworks optimized for Intel hardware.
 
-## 1. System Requirements for this Tutorial 
+## 1. System Requirements for this Guide 
 
 - A system with Intel GPU Max 1550 (Ponte Vecchio)
 - Ubuntu 20.04 or later (recommended)
@@ -94,6 +94,8 @@ To verify that the AI tools are properly installed, use the following commands:
   ```bash
   pip install neural-compressor
   ```
+
+- IPEX-LLM: [Link to IPEX-LLM, Intel's suite of supported software for running LLMs](https://github.com/intel-analytics/ipex-llm)
 
 ## 7. Start Developing
 
